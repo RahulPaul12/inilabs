@@ -2,9 +2,12 @@ import React from "react";
 
 const Collaborate = () => {
   return (
-    <div className="container">
-      <div className=" mx-[320px]">
-        <h1 className="font-bold text-5xl margin-auto text-center leading-[56px]">
+    <div className="container relative ">
+      
+      <div className=" mx-[320px] ">
+      <div className="w-[172px]  h-6 bg-[#FFD02F] flex justify-center items-center rotate-[10deg] rounded-lg absolute right-[280px] top-[-30px]"><small>YOUR IDEA STARTS HERE</small></div>
+        <h1 className="font-bold text-5xl margin-auto text-center leading-[56px] mt-9">
+          
           Collaborate without constraints
         </h1>
       </div>

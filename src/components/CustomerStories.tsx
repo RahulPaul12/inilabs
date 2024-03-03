@@ -31,7 +31,7 @@ const CustomerStories = () => {
       
     </div>
   </div>
-  <div className="px-9 mt-6 flex flex-col rounded-lg  text-left w-[360px] h-[460px]">
+  <div className="px-9 mt-6 flex flex-col rounded-lg  lg:text-left sm:text-center w-[360px] h-[460px]">
       <img className='max-w-[190px] w-full h-auto' src={img2} alt="" />
     <div className="mb-4 py-7 pe-7 w-72">
       <p className="font-normal text-lg">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>

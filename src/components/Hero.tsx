@@ -28,8 +28,8 @@ const Hero = () => {
 
           <small className="text-sm font-normal text-[#05003866]">Collaborate with your team within minutes</small>
         </div>
-        <div className="col-span-4 w-[640px] h-[463px]">
-          <img src={image} alt="" />
+        <div className="col-span-4 w-[640px] h-[463px] mb-20">
+          <img className="sm:w-full" src={image} alt="" />
         </div>
       </div>
     </div>
