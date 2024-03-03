@@ -4,15 +4,23 @@ const Collaborate = () => {
   return (
     <div className="container relative ">
       
-      <div className=" mx-[320px] ">
-      <div className="w-[172px]  h-6 bg-[#FFD02F] flex justify-center items-center rotate-[10deg] rounded-lg absolute right-[280px] top-[-30px]"><small>YOUR IDEA STARTS HERE</small></div>
+      <div className=" lg:mx-[320px] ">
+
+        {/* rotate text */}
+        
+      <div className=" lg:w-[172px]  h-6 bg-[#FFD02F] flex justify-center items-center rotate-[10deg] rounded-lg absolute lg:right-[280px] right-12 top-[-30px]"><small>YOUR IDEA STARTS HERE</small></div>
+        
+        {/* header section */}
         <h1 className="font-bold text-5xl margin-auto text-center leading-[56px] mt-9">
           
           Collaborate without constraints
         </h1>
       </div>
 
-      <div className="grid grid-cols-3 gap-7 mt-9">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-7 mt-9">
+
+        {/* content 1 section */}
+
         <div className="col-span-1 px-6">
           <h3 className="text-2xl font-bold mb-5">Free forever</h3>
           <p className="font-normal text-lg text-[#05003899]">
@@ -23,6 +31,9 @@ const Collaborate = () => {
             features.
           </p>
         </div>
+
+        {/* content 2 section */}
+
         <div className="col-span-1 px-6">
           <h3 className="text-2xl font-bold mb-5">Easy integrations</h3>
           <p className="font-normal text-lg text-[#05003899]">
@@ -32,6 +43,9 @@ const Collaborate = () => {
             <span className="text-[#4262FF]"> Marketplace</span> .
           </p>
         </div>
+
+        {/* content 3 section */}
+
         <div className="col-span-1 px-6">
           <h3 className="text-2xl font-bold mb-5">Security first</h3>
           <p className="font-normal text-lg text-[#05003899]">
