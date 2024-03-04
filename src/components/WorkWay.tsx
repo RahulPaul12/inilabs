@@ -4,7 +4,7 @@ const WorkWay = () => {
     return (
     <div className='container relative'>
             <img className='h-auto max-w-full' src={img} alt=""/>
-        <div className='absolute text-center lg:top-[34%] lg:right-24'>
+        <div className='absolute text-center lg:top-[34%] lg:right-24 lg:block hidden'>
             <h3 className="text-2xl font-bold mb-3">The Ways We Work</h3>
             <p className="font-normal text-lg mb-2">
             How has our relationship with work changed?

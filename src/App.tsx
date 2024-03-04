@@ -7,6 +7,7 @@ import CustomerStories from './components/CustomerStories'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+
 import TrustedUser from './components/TrustedUser/TrustedUser'
 import WorkTogether from './components/WorkTogether'
 import WorkWay from './components/WorkWay'
