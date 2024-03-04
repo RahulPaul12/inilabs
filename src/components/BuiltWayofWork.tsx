@@ -1,15 +1,19 @@
 import { useState } from 'react';
 import img from '../images/Brainstormwithoutshadow.jpg.png';
 const actions = [
-        {name:'about' , type:'about'},
-        {name:'service' , type:'service'},
-        {name:'statistics' , type:'statistics'},
+        {name:'Brainstorming' , type:'Brainstorming'},
+        {name:'Diagramming' , type:'Diagramming'},
+        {name:'Meetings & Workshops' , type:'Meetings & Workshops'},
+        {name:'Scrum Events' , type:'Scrum Events'},
+        {name:'Mapping' , type:'Mapping'},
+        {name:'Research & Design' , type:'Research & Design'},
+        {name:'Strategic Planning' , type:'Strategic Planning'},
     ]
 
 const BuiltWayofWork = () => {
     
     
-    const [content , setContent] =useState("about")
+    const [content , setContent] =useState("Brainstorming")
     
     const btns = document.querySelectorAll('.btn')
     btns.forEach((btn)=>{
@@ -18,7 +22,7 @@ const BuiltWayofWork = () => {
         btn.classList.add('active')
        })
     })
-    const AboutTab =()=> 
+    const Brainstorming =()=> 
     <div className='grid lg:grid-cols-6 grid-cols-1 gap-14 lg:w-[1060px] w-full px-4 py-8 text-[#050038B2]'>
         <div className='col-span-2 w-full lg:w-[360px] pe-5'>
            <p className='font-normal text-sm'>Brainstorming</p>
@@ -33,7 +37,7 @@ const BuiltWayofWork = () => {
     </div>
     
 
-const ServiceTab =()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px] w-full px-4 py-8 text-[#050038B2]'>
+const Diagramming =()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px] w-full px-4 py-8 text-[#050038B2]'>
 <div className='col-span-2 w-full lg:w-[360px] pe-5'>
    <p className='font-normal text-sm'>Diagramming</p>
    
@@ -46,7 +50,7 @@ const ServiceTab =()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px] w-
 </div>
 </div>
 
-const StatiSticsTab = ()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px] w-full px-4 py-8 text-[#050038B2]'>
+const MeetingsWorkshops = ()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px] w-full px-4 py-8 text-[#050038B2]'>
 <div className='col-span-2 w-full lg:w-[360px] pe-5'>
    <p className='font-normal text-sm'>Diagramming</p>
    
@@ -72,7 +76,7 @@ const StatiSticsTab = ()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px
     actions.map(action=>(
         <li className="me-2">
             <button id={action.type} onClick={()=>{setContent(action.type) }
-                }  type="button" role="tab"   className={`w-full lg:w-[135px] h-auto lg:h-12 py-3 px-7 rounded-3xl btn font-normal text-[14px] ${action.type== 'about'? "active": "inactive"}`}>Brainstorming</button>
+                }  type="button" role="tab"   className={`w-full h-auto lg:h-12 py-3 px-7 rounded-3xl btn font-normal text-[14px] ${action.type== 'about'? "active": "inactive"}`}>{action.name }</button>
             </li>
     ))
    }
@@ -81,9 +85,9 @@ const StatiSticsTab = ()=>  <div className='grid grid-cols-6 gap-14 lg:w-[1060px
     
     </ul>
     <div id="defaultTabContent">
-        {content ==="about" && <AboutTab/>}
-        {content ==="service" && <ServiceTab/>}
-        {content ==="statistics" && <StatiSticsTab/>}
+        {content ==="Brainstorming" && <Brainstorming/>}
+        {content ==="Diagramming" && <Diagramming/>}
+        {content ==="Meetings & Workshops" && <MeetingsWorkshops/>}
         
     </div>
 </div>
