@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import img from '../images/uxdesignwithoutshadow.jpg.png';
 import logo1 from '../images/Vector(6).png'
 import logo2 from '../images/Vector(7).png'

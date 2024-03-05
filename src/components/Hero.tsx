@@ -1,4 +1,4 @@
-import React from "react";
+
 import image from "../images/headerimage-without-text.png.png";
 import logo10 from '../images/Vector(10).png'
 import logo11 from '../images/Vector(11).png'

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img from '../images/M3_integrations_all_integrations.png.png'
 const ConnectTools = () => {
     return (

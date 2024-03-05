@@ -1,4 +1,4 @@
-import React from "react";
+
 import img1 from "../images/vmware.svg.png";
 import img2 from "../images/Vector(2).png";
 import img3 from "../images/Vector(1).png";

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img from '../images/hybridwork.png.png'
 const WorkTogether = () => {
     return (

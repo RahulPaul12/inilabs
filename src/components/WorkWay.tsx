@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img from '../images/f35490d1795865569180d6af1ca0ada1.png'
 const WorkWay = () => {
     return (
