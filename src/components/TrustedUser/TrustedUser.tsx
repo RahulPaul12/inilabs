@@ -1,4 +1,4 @@
-import React from "react";
+
 import img1 from "../../images/Walmart_Index_Only.svg.png";
 import img2 from "../../images/cisco.svg.png";
 import img3 from "../../images/Volvo_Index_Only.svg.png";
